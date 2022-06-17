@@ -23,11 +23,31 @@ body {
     text-align: center;
 }
 
+#thanks-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 193px;
+    height: 32px;
+    background-color: #262E38;
+    border-radius: 22.5px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#thanks-rating>p {
+    margin: 0px;
+    text-align: center;
+    color: #FC7614;
+    font-size: 15px;
+    margin
+}
+
 #thanks-text>h1 {
     font-size: 28px;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 992px) {
     #cell-1 {
         display: flex;
         flex-flow: column;
