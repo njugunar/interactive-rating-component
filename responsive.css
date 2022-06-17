@@ -28,11 +28,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 193px;
-    height: 32px;
+    height: 20px;
     background-color: #262E38;
     border-radius: 22.5px;
     margin-top: 32px;
     margin-bottom: 32px;
+    padding: 5px;
 }
 
 #thanks-rating>p {
@@ -40,11 +41,15 @@ body {
     text-align: center;
     color: #FC7614;
     font-size: 15px;
-    margin
 }
 
 #thanks-text>h1 {
     font-size: 28px;
+    margin-top: 0px;
+}
+
+#thanks-text>p {
+    margin: 0px;
 }
 
 @media screen and (min-width: 992px) {
