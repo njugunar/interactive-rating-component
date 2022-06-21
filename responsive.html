@@ -7,8 +7,11 @@
 </head>
 
 <body>
-    <div id="cell-1">
-        <div id="cell-1-1"><img src="icon-star.svg"> </div>
+    <form>
+        <div id="cell-1-1">
+            <div id="star-circle"><img src="icon-star.svg"> </div>
+        </div>
+
         <div id="cell-1-2">
             <h1>How did we do? </h1>
         </div>
@@ -17,17 +20,15 @@
                 All feedback is appreciated to help us improve our offering!</p>
         </div>
         <div id="cell-1-4">
-            <ul>
-                <li><a href="thanks.html?rating=1">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-            </ul>
+            <div class="big-button"><input type="radio" id="1" value="1" name="rating"> <label for="1">1</label></div>
+            <span class="big-button"><input type="radio" id="2" value="2" name="rating"> <label for="2">2</label></span>
+            <span class="big-button"><input type="radio" id="3" value="3" name="rating"> <label for="3">3</label></span>
+            <span class="big-button"><input type="radio" id="4" value="4" name="rating"> <label for="4">4</label></span>
+            <span class="big-button"><input type="radio" id="5" value="5" name="rating"> <label for="5">5</label></span>
         </div>
         <div id="cell-1-5">
             <button id="submit">SUBMIT</button>
-        </div>
+    </form>
     </div>
 </body>
 
