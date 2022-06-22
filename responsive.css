@@ -171,7 +171,7 @@ body {
 }
 
 
-#submit {
+button {
     width: 341px;
     height: 45px;
     border-radius: 22.5px;
@@ -180,4 +180,10 @@ body {
     font-size: 15px;
     border-width: 0px;
     letter-spacing: 2px;
+}
+
+button:active {
+    color: #FC7614;
+    background-color: #FFFFFF;
+    /* transition: 0.7s; */
 }
